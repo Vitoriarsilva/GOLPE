@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+.navbarblue{
+    background-color: blue;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+}
+.navbaryellow{
+    background-color: #FFF200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+    height: 45px;
+    padding: 10px 20px;
+}
+.navbaryellow nav a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+ .logo{
+  height: 300px ;
+  width: auto ;
+  max-width: 100%;
+  display: block;
+  }
+.banner{
+    height: 632px; 
+    width: auto ;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    background-image:url(Banner.webp);
+
+}
+.bloco-login{
+    position: absolute;
+    top: 20%;
+    left: 135px;
+    transform: translateY(-50%);
+    max-width: 600px;
+    padding: 30px;
+    font-family: system-ui, sans-serif;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 24px;
+    color: #004481;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+.formulario {
+    position: absolute; /* Faz o formulário ficar sobre o banner */
+    top: 60%;  /* Alinha o formulário verticalmente */
+    left: 90px; /* Deixa o formulário no lado esquerdo */
+    transform: translateY(-50%); /* Ajuste para centralizar o formulário */
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-family: system-ui, sans-serif;
+    box-sizing: border-box;
+    width:100%;
+    overflow: hidden;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004481;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .formulario button:hover {
+    background-color: #003060;
+  }
